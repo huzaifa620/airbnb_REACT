@@ -5,6 +5,7 @@ import Button from "@mui/material/Button"
 const SearchPage = () => {
   return (
     <div className='searchPage'>
+
       <div className='searchPage_info'>
         <p> 62 stays . 26 august to 30 august </p>
         <h1> Stays nearby </h1>
@@ -14,6 +15,9 @@ const SearchPage = () => {
         <Button variant="outlined">Rooms and beds</Button>
         <Button variant="outlined">More filters</Button>
       </div>
+
+      
+
     </div>
   )
 }
