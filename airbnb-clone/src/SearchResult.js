@@ -23,11 +23,11 @@ const SearchResult = ( { img, location, title, desc, star, price, total } ) => {
             <div className='searchResult_infoBottom'>
 
                 <div className='searchResult_stars'>
-                    <StarIcon className='searchReslt_star'/>
+                    <StarIcon className='searchResult_star'/>
                     <p> <strong> {star} </strong> </p>
                 </div>
 
-                <div className='searchReslt_price'>
+                <div className='searchResult_price'>
                     <h2> {price} </h2>
                     <p> {total} </p>
                 </div>
